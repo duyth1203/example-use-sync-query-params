@@ -8501,10 +8501,10 @@ url-search-params-polyfill@^8.1.1:
   resolved "https://registry.yarnpkg.com/url-search-params-polyfill/-/url-search-params-polyfill-8.1.1.tgz#9e69e4dba300a71ae7ad3cead62c7717fd99329f"
   integrity sha512-KmkCs6SjE6t4ihrfW9JelAPQIIIFbJweaaSLTh/4AO+c58JlDcb+GbdPt8yr5lRcFg4rPswRFRRhBGpWwh0K/Q==
 
-use-sync-query-params@^0.1.3:
-  version "0.1.3"
-  resolved "https://registry.yarnpkg.com/use-sync-query-params/-/use-sync-query-params-0.1.3.tgz#4a9c5ec1114220c166886afc2e47fe4032f87490"
-  integrity sha512-O1Vw6JN9y2qLEL1apGTyB9l4kFLLBNxMZROmMBxvvPHOh96YlUZLNsdWqvANvKp1AAkx7//MMvy1yT7sp1YsPA==
+use-sync-query-params@^0.1.6:
+  version "0.1.6"
+  resolved "https://registry.yarnpkg.com/use-sync-query-params/-/use-sync-query-params-0.1.6.tgz#342c9614f432b82ca3c6b1465064edfb27a14694"
+  integrity sha512-c2/RiHChlReyWm8IVtvuB5Oy2vZFPssik3y0+L5MDa86AbEk7tF7pB5k9TS9ZTa1D6HO36CcMCWoujDBWsJ7pQ==
   dependencies:
     url-search-params-polyfill "^8.1.1"
 
