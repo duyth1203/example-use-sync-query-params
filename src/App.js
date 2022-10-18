@@ -3,15 +3,18 @@ import * as React from "react"
 import useSyncQueryParams from "use-sync-query-params"
 
 const Thing = () => {
-  const params = useSyncQueryParams({ foo: "bar" })
+  const params = useSyncQueryParams({ foo: "bar", foo2: "barz" })
 
   console.log("render")
 
   return (
     <div>
-      <p>{params.getParam("foo")}</p>
+      <p>{params.getParam("foo")}</p>      
       <p>{window.location.search}</p>
-      <pre>{JSON.stringify(params.getAllParams())}</pre>
+      <p>Get all params</p>
+      <pre>{JSON.stringify(params.getAllParams())}</pre>      
+      <p>Get multiple params</p>
+      <pre>{JSON.stringify(params.getParams('foo2', 'foo'))}</pre>
       <br />
       <button onClick={() => params.setParam("foo", "baz")}>
         Change bar to baz
