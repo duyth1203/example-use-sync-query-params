@@ -8496,17 +8496,10 @@ url-parse@^1.5.3:
     querystringify "^2.1.1"
     requires-port "^1.0.0"
 
-url-search-params-polyfill@^8.1.1:
-  version "8.1.1"
-  resolved "https://registry.yarnpkg.com/url-search-params-polyfill/-/url-search-params-polyfill-8.1.1.tgz#9e69e4dba300a71ae7ad3cead62c7717fd99329f"
-  integrity sha512-KmkCs6SjE6t4ihrfW9JelAPQIIIFbJweaaSLTh/4AO+c58JlDcb+GbdPt8yr5lRcFg4rPswRFRRhBGpWwh0K/Q==
-
-use-sync-query-params@^0.1.6:
-  version "0.1.6"
-  resolved "https://registry.yarnpkg.com/use-sync-query-params/-/use-sync-query-params-0.1.6.tgz#342c9614f432b82ca3c6b1465064edfb27a14694"
-  integrity sha512-c2/RiHChlReyWm8IVtvuB5Oy2vZFPssik3y0+L5MDa86AbEk7tF7pB5k9TS9ZTa1D6HO36CcMCWoujDBWsJ7pQ==
-  dependencies:
-    url-search-params-polyfill "^8.1.1"
+use-sync-query-params@^0.1.7:
+  version "0.1.7"
+  resolved "https://registry.yarnpkg.com/use-sync-query-params/-/use-sync-query-params-0.1.7.tgz#f55633fe7c94d3a19c978bbdbf7c0d44fbab502e"
+  integrity sha512-GM5D406s7QiYrtH78wTsn6skF8rmlTAdljFnLRX0RPeX2zelQDihaeuoClo8V0rwBFEYdCX/6AQ7hGnET8uH0Q==
 
 util-deprecate@^1.0.1, util-deprecate@^1.0.2, util-deprecate@~1.0.1:
   version "1.0.2"

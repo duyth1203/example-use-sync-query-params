@@ -5,16 +5,16 @@ import useSyncQueryParams from "use-sync-query-params"
 const Thing = () => {
   const params = useSyncQueryParams({ foo: "bar", foo2: "barz" })
 
-  console.log("render")
+  console.count("render")
 
   return (
     <div>
-      <p>{params.getParam("foo")}</p>      
+      <p>{params.getParam("foo")}</p>
       <p>{window.location.search}</p>
       <p>Get all params</p>
-      <pre>{JSON.stringify(params.getAllParams())}</pre>      
+      <pre>{JSON.stringify(params.getAllParams())}</pre>
       <p>Get multiple params</p>
-      <pre>{JSON.stringify(params.getParams('foo2', 'foo'))}</pre>
+      <pre>{JSON.stringify(params.getParams("foo2", "foo"))}</pre>
       <br />
       <button onClick={() => params.setParam("foo", "baz")}>
         Change bar to baz
@@ -25,19 +25,19 @@ const Thing = () => {
       </button>
       <br />
       <button onClick={() => params.clearParam("foo")}>
-        Clear query param
+        Clear foo query param
       </button>
       <br />
       <button onClick={() => params.setParam("foo", null)}>
-        Clear query param null
+        Clear foo query param null
       </button>
       <br />
       <button onClick={() => params.setParam("foo", undefined)}>
-        Clear query param undefined
+        Clear foo query param undefined
       </button>
       <br />
       <button onClick={() => params.setParam("foo", "")}>
-        Clear query param empty string
+        Clear foo query param empty string
       </button>
     </div>
   )
